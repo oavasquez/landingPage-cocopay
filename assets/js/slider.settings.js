@@ -5,41 +5,41 @@
 
 // Settings for iphone in-screen slider 
 
-$(function(){
-  $('#iphone-slide').bxSlider({
-    auto: true,
-	mode: 'horizontal',	
-	speed: 700,	
-	nextText: '',
-	prevText: '',
-	hideControlOnEnd: true
-  });
-});	
+$(function () {
+	$('#iphone-slide').bxSlider({
+		auto: true,
+		mode: 'horizontal',
+		speed: 6000,
+		nextText: '',
+		prevText: '',
+		hideControlOnEnd: true
+	});
+});
 
 // Settings for Screenshots slider
 
-$(function(){
-  $('#screenslide').bxSlider({
-    auto: false,
-	mode: 'horizontal',	
-	speed: 700,	
-	nextText: '<div id="next"></div>',
-	prevText: '<div id="prev"></div>',
-	infiniteLoop: false,
-	hideControlOnEnd: false
-  });
-});	
+$(function () {
+	$('#screenslide').bxSlider({
+		auto: false,
+		mode: 'horizontal',
+		speed: 5000,
+		nextText: '<div id="next"></div>',
+		prevText: '<div id="prev"></div>',
+		infiniteLoop: false,
+		hideControlOnEnd: false
+	});
+});
 
 
 // Settings for testimonials fader
 
-$(function(){
-  $('.testimonials').bxSlider({
-    auto: true,
-	mode: 'fade',	
-	nextText: '',
-	prevText: '',
-	speed: 2000,	
-	hideControlOnEnd: true
-  });
+$(function () {
+	$('.testimonials').bxSlider({
+		auto: true,
+		mode: 'fade',
+		nextText: '',
+		prevText: '',
+		speed: 100000,
+		hideControlOnEnd: true
+	});
 });	
